@@ -35,7 +35,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: false # 文章需要引入本地图片时设置为true 新建blog时会生成图片文件夹目录
 relative_link: false
 future: true
 highlight:
@@ -56,13 +56,7 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
-  Test: test
-  Java: java
-  Linux: linux
-  Php: php
-tag_map: 
-  test: test
-  测试: 测试
+tag_map:
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
